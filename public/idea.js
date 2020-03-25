@@ -76,11 +76,11 @@ $(window).scroll(function() {
         
         $(".panel4").css({
             
-            transform: 'translate3d('+(35-(scroll/140))+'%, '+(160-(scroll/15))+'%, 0) scale('+(300-(scroll/8.5))/100+')',
+            transform: 'translate3d('+(35-(scroll/140))+'%, '+(150-(scroll/15))+'%, 0) scale('+(300-(scroll/8.5))/100+')',
             //Blur suggestion from @janwagner: https://codepen.io/janwagner/ in comments
-            "-webkit-filter": "blur(" + (poceala(1500)) + "px)",
-            filter: "blur(" + (poceala(1500)) + "px)",
-            opacity: fade(1500)
+            "-webkit-filter": "blur(" + (poceala(1600)) + "px)",
+            filter: "blur(" + (poceala(1600)) + "px)",
+            opacity: fade(1600)
         });
         
 

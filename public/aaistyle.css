@@ -1,4 +1,25 @@
 
+/* unvisited link */
+a:link {
+	text-decoration: none;
+	color: tomato;
+  }
+  
+  /* visited link */
+  a:visited {
+	color: rgb(187, 55, 31);
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: white;
+  }
+  
+  /* selected link */
+  a:active {
+	color: rgb(243, 134, 115);
+  }
+
 .panel1{	
 	transform: translate3d(35%,200%,0) scale(3);
 	height: 30%;
@@ -22,17 +43,16 @@
 }
 
 .panel4{
-	transform: translate3d(35%,160%,0) scale(3);
+	transform: translate3d(35%,150%,0) scale(3);
 	height: 90%;
 	width:48%;
 	opacity:0;
 	margin-left: -36%;
-	background-color: rgba(56, 56, 56, 0.247);
 }
 
 .titlu{
 	color: rgb(255, 255, 255);
-	font-family: 'Erica One', cursive;
+	font-family: 'Raleway', sans-serif;
 	font-size: 2rem;
 	text-align: right;
 	text-shadow: 0.8px -0.8px 2px black;
@@ -72,11 +92,11 @@
 }
 
 #p3{
-	font-size: 2.5rem;
+	font-size: 3rem;
 }
 
 #p4{
-	font-size: 3rem;
+	font-size: 3.5rem;
 }
 #content{
 	z-index:0;
